@@ -4,7 +4,7 @@
  * @author Daniel<daniel.zhu@thenetcircle.com>
  * @description
  *
- * @date 2016-01-04
+ * @date 2017-01-04
  */
 // import { html as beautifyHtml } from 'js-beautify'
 import React, { PropTypes, Component } from 'react'
