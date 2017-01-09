@@ -1,6 +1,6 @@
 {
   "name": "react-elements-to-string",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "It can convert react elements object to pure string, the final string will looks tolly like the original React elements",
   "main": "build.js",
   "scripts": {
@@ -19,12 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:DanielZhu/react-elements-to-string.git"
+    "url": "git+ssh://git@github.com:DanielZhu/react-elements-to-string.git"
   },
   "bugs": {
     "url": "https://github.com/DanielZhu/react-elements-to-string/issues"
   },
   "homepage": "https://github.com/DanielZhu/react-elements-to-string",
+  "keywords": [
+    "react",
+    "jsx",
+    "string",
+    "staydan"
+  ],
   "devDependencies": {
     "babel-cli": "^6.1.18",
     "babel-core": "^6.1.18",
@@ -59,11 +65,5 @@
       "getComputedStyle",
       "jasmine"
     ]
-  },
-  "readme": "ERROR: No README data found!",
-  "readmeFilename": "Readme.md",
-  "_id": "react-elements-to-string@0.1.0",
-  "_shasum": "88b917cfacafde737d6ddee37e70f833f406ec8e",
-  "_from": "../react-elements-to-string",
-  "_resolved": "file:../react-elements-to-string"
+  }
 }
