@@ -7,7 +7,8 @@
  * @date 2017-01-04
  */
 // import { html as beautifyHtml } from 'js-beautify'
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class ReactElementsToString extends Component {
   // constructor (props) {

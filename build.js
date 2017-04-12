@@ -12,6 +12,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -24,7 +28,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * @author Daniel<daniel.zhu@thenetcircle.com>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * @description
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @date 2016-01-04
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @date 2017-01-04
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 // import { html as beautifyHtml } from 'js-beautify'
 
@@ -177,8 +181,8 @@ var ReactElementsToString = function (_Component) {
 }(_react.Component);
 
 ReactElementsToString.proptypes = {
-  reactElements: _react.PropTypes.object,
-  useFuncContent: _react.PropTypes.bool
+  reactElements: _propTypes2.default.object,
+  useFuncContent: _propTypes2.default.bool
 };
 
 exports.default = ReactElementsToString;
